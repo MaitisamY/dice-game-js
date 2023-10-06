@@ -1,0 +1,66 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 0 15px 0;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.54);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.54);   
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    background: url("./bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: #232931;
+    padding: 15px 0 15px 0;
+  }
+  
+  button {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #232931;
+    padding: 6px 30px;
+    font-size: 2rem;
+    font-family: 'Salsa', cursive;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+
+  button:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #232931;
+  }
+
+  p {
+    font-size: 3rem;
+    color: #232931;
+    font-family: 'Salsa', cursive;
+  }
+  
+  img {
+    width: 50%;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
