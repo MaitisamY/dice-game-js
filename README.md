@@ -1,1 +1,3 @@
-# dice-game-js
+# Dice Game
+
+**HTML CSS Vanilla JavaScript**
